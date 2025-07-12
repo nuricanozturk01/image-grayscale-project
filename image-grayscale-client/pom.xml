@@ -16,34 +16,27 @@
 
     <repositories>
         <repository>
-            <id>javaapp1-mar-2023-maven-repo</id>
-            <url>https://raw.github.com/oguzkaran/javaapp1-mar-2023-maven-repo/main</url>
+            <id>javaapp2-jan-2024-karandev-maven-repo</id>
+            <url>https://raw.github.com/oguzkaran/javaapp2-jan-2024-karandev-maven-repo/main</url>
         </repository>
 
         <repository>
-            <id>javaapp1-mar-2023-karandev-maven-repo</id>
-            <url>https://raw.github.com/oguzkaran/javaapp1-mar-2023-karandev-maven-repo/main</url>
+            <id>javaapp2-jan-2024-maven-repo</id>
+            <url>https://raw.github.com/oguzkaran/javaapp2-jan-2024-maven-repo/main</url>
         </repository>
     </repositories>
 
     <dependencies>
         <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.34</version>
-            <scope>provided</scope>
+            <groupId>com.karandev</groupId>
+            <artifactId>com-karandev-util-console</artifactId>
+            <version>1.0.0</version>
         </dependency>
 
         <dependency>
             <groupId>com.karandev</groupId>
-            <artifactId>com-karandev-util-console</artifactId>
-            <version>14.0.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.csystem</groupId>
-            <artifactId>org-csystem-util</artifactId>
-            <version>17.3.0</version>
+            <artifactId>com-karandev-util-net</artifactId>
+            <version>1.0.0</version>
         </dependency>
 
         <dependency>
